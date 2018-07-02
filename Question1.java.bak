@@ -1,0 +1,23 @@
+//static members can be overridden or not
+class Question1 
+{
+public static void main(String[] args) 
+	{
+		SubClass sub1 = new SubClass();
+		sub1.a;
+	}
+}
+
+class SuperClass
+{
+	int a = 12;
+	System.out.println("a = "+a);
+}
+
+
+class SubClass extends SuperClass 
+{
+@Override
+int a =20;
+System.out.println("a = "+a);
+}

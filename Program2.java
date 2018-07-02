@@ -1,0 +1,23 @@
+class Program2 
+{
+	public static void main(String[] args) 
+	{
+   int n=5;
+
+			for(int line =n;line>=1;line--)
+		{
+				for(int space=line-1;space>=1;space--)
+			{
+				System.out.print(" ");
+			}
+			
+	         
+               for(int star =line ;star<=n;star++)
+
+			{
+			    System.out.print("* ");
+			}
+		        System.out.println();
+		}
+     }
+}
